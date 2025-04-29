@@ -1,6 +1,8 @@
-# Degree
-- degree: 컴퓨터 공학과 학사 졸업
-  uni: 한양 대학교 (경기)
-  year: 2006년 2월 &mdash; 2013년 2월
-  awards:
-  summary: 평점 평균 3.75 / 4.5
+- uni: "줄포자동차공업고등학교"
+  degree: "졸업"
+  year: "2019년 2월"
+  description: "자동차과 졸업"
+
+- uni: "즐포중학교"
+  degree: "졸업"
+  year: "2016년 2월"
