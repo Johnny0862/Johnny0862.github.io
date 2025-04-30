@@ -1,1 +1,58 @@
+# Site settings
+title: "남용하 이력서"
+description: "남용하 이력서"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar: "true"
+resume_name: "남 용 하"
+resume_title: "Software Engineer"
+resume_contact_email: "yh08622@naver.com"
+resume_contact_telephone: ""
+resume_contact_address: ""
+resume_header_contact_info: "yh08622@naver.com"
+resume_header_intro: >
+  안녕하세요. 저는 새로운 경험을 통해 진로를 다시 생각하게 된 남용하 입니다.<br/><br/>
+  호주 워킹홀리데이를 다녀오면서 다양한 문화와 사람들을 만나 소통하고, 저의 삶의 미래에 대해 진지하게 고민하는 계기를 가졌습니다. 그 경험을 통해 저는 사람들과 협업하는 일뿐 아니라, 혼자만의 집중이 필요한 일도 즐긴다는 점을 깨달았고, 그 두 가지 모두 어우러지는 IT 분야에 관심을 갖게 되었습니다.<br/><br/>
+  호주에서 다양한 국적의 사람들과 일하면서 자연스럽게 영어에 노출되었고, 의사소통 능력과 열린 사고방식을 키울 수 있었습니다. 그 과정에서 스스로 돌아보는 시간을 가졌고, 앞으로는 논리적으로 사고하고 혼자 집중하며 성장할 수 있는 일, 그리고 다른 사람들과 결과물을 만들어 나가는 일에 도전하고 싶다는 확신이 생겼습니다. 그 두 가지 조건을 모두 갖춘 분야가 바로 IT였습니다.<br/><br/>
+  현재는 IT에 관심을 갖고 여러 방향으로 정보를 탐색하고 있으며, 그 과정에서 업계에서 영어의 중요성을 다시금 실감하게 되었습니다. 현재는 본격적인 프로그래밍 학습보다는 IT 공부 기반이 될 수 있는 영어 능력 향상에 더 집중하고 있습니다. 특히, 영어 기술 문서를 이해하고 온라인 자료를 활용할 수 있는 수준까지 끌어올리는 것이 현재 저의 목표입니다. 이후에는 본격적인 코딩 학습과 프로젝트 경험으로 이어가고 싶습니다.
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work: "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience: true
+resume_section_education: true
+resume_section_projects: false
+resume_section_skills: false
+#resume_section_recognition:     true
 resume_section_links: false
+#resume_section_associations:    true
+resume_section_interests: true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url: "https://github.com/Shiwoo-Park"
+  resume_facebook_url: "https://www.facebook.com/woozin23"
+  resume_linkedin_url: "https://www.linkedin.com/in/shiwoopark"
+  resume_instagram_url: "https://www.instagram.com/silva23/"
+  #resume_website_url:           "http://oniondev.egloos.com"
+  resume_twitter_url: "https://twitter.com/jcoffeemilk"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
+resume_print_social_links: true
+
+# Design settings
+resume_theme: default
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
