@@ -1,0 +1,19 @@
+
+resume_name: 남 용 하
+resume_title: ""
+resume_header_intro: >
+  안녕하세요. 저는 새로운 경험을 통해 진로를 다시 생각하게 된 남용하 입니다.
+  호주 워킹홀리데이를 다녀오면서 다양한 문화와 사람들을 만나 소통하고, 저의 삶의 미래에 대해 진지하게 고민하는 계기를 가졌습니다. 그 경험을 통해 저는 사람들과 협업하는 일뿐 아니라, 혼자만의 집중이 필요한 일도 즐긴다는 점을 깨달았고, 그 두 가지 모두 어우러지는 IT 분야에 관심을 갖게 되었습니다.
+  현재는 IT에 관심을 갖고 여러 방향으로 정보를 탐색하고 있으며, 본격적인 프로그래밍 학습보다는 IT 공부 기반이 될 수 있는 영어 능력 향상에 집중하고 있습니다. 이후에는 본격적인 코딩 학습과 프로젝트 경험으로 이어가고 싶습니다.
+resume_contact_email: your.email@example.com
+resume_contact_telephone: 010-1234-5678
+resume_avatar: 'true'
+resume_looking_for_work: 'yes'
+resume_section_education: true
+resume_section_projects: true
+resume_section_skills: true
+resume_section_recognition: true
+resume_section_associations: true
+resume_section_interests: true
+resume_section_links: false
+resume_print_social_links: false
