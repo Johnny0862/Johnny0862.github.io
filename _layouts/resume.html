@@ -22,11 +22,13 @@
   />
   {% endif %}
 
-  <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
+  <!-- PDF 인쇄용 이미지 -->
   <img 
     src="data:image/jpeg;base64,..." 
     alt="my photo" 
     style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
+
+  <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
 
 
