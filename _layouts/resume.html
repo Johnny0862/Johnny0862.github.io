@@ -12,24 +12,21 @@
       />
       <meta itemprop="address" content="{{ site.resume_contact_address }}" />
 
-      <header class="page-header">
-        <!-- You can turn off the avatar in _config.yml by setting to false -->
-        {% if site.resume_avatar == 'true' %}
-        <!--<img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">-->
-        <!--<img src="images/shiwoo.png" alt="my photo" class="avatar no-print" itemprop="image">-->
-        <img
-          src="https://johnny0862.github.io/images/yongha.jpg"
-          src="https://johnny0862.github.io/images/yongha.jpg"
-          alt="my photo"
-          class="avatar no-print"
-          itemprop="image"
-        />
-        {% endif %}
+     <header class="page-header">
+  {% if site.resume_avatar == 'true' %}
+  <img
+    src="https://johnny0862.github.io/images/yongha.jpg"
+    alt="my photo"
+    class="avatar no-print"
+    itemprop="image"
+  />
+  {% endif %}
 
-        <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
-        <img src="data:image/jpeg;base64,..." 
-     alt="my photo" 
-     style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
+  <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
+  <img 
+    src="data:image/jpeg;base64,..." 
+    alt="my photo" 
+    style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
 
 
 
