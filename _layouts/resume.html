@@ -22,13 +22,20 @@
   />
   {% endif %}
 
-  <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
-  {% if jekyll.environment == "production" %}
-  <img 
-    src="data:image/jpeg;base64,..." 
-    alt="" 
-    style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
-  {% endif %}
+ <!-- 화면용 사진 (웹에서만 보여짐) -->
+<img
+  src="https://johnny0862.github.io/images/yongha.jpg"
+  alt="my photo"
+  class="avatar no-print"
+  itemprop="image"
+/>
+
+<!-- PDF 인쇄용 base64 사진 -->
+<img 
+  class="print-only"
+  src="data:image/jpeg;base64,..."
+  alt="my photo"
+  style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
 
 
 
