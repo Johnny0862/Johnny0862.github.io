@@ -26,27 +26,26 @@ resume_header_intro: >
   그래서 저처럼 두 가지에 모두 매력을 느끼는 사람에게는 가장 잘 맞는 길이라 여겨졌습니다.<br/><br/>
   현재는 다양한 경로로 IT 분야에 대한 정보를 탐색하고 있으며, 그 과정에서 영어의 중요성을 실감하고 있습니다.<br/>
   이에 따라 지금은 본격적인 프로그래밍 학습에 앞서, 기술 문서를 이해하고 온라인 자료를 활용할 수 있는 수준의 영어 실력 향상에 집중하고 있습니다.<br/>
-  이후에는 코딩 학습과 실습 프로젝트를 통해 실제 역량을 키우고, 작은 성취를 하나씩 쌓아가며 성장하고자 합니다.<br/><br/>
+  이후에는 코딩 학습과 실습 프로젝트를 통해 실제 역량을 키우고, 작은 성취를 하나하나에 최선을 다하며 성장하고자 합니다.<br/><br/>
   비록 지금은 IT 비전공자이지만, 스스로 주도적으로 배우는 자세와 다양한 문화에서 길러온 소통 능력을 바탕으로 꾸준히 성장해 나가겠습니다.<br/>
   아직은 시작 단계이지만, 배우는 과정 하나하나에 최선을 다하며 성실하게 나아가겠습니다.<br/>
   저의 첫걸음을 따뜻하게 지켜봐 주신다면 감사하겠습니다.
-
 
 resume_looking_for_work: "yes"
 
 # Sections
 resume_section_experience: true
 resume_section_education: true
-resume_section_projects: false
-resume_section_skills: false
-#resume_section_recognition:     true
-resume_section_links: false
-#resume_section_associations:    true
+#resume_section_projects: false
+#resume_section_skills: false
+#resume_section_recognition: true
+#resume_section_links: false
+#resume_section_associations: true
 resume_section_interests: true
 
-# Social links 제거 (숨김 처리)
-resume_social_links:
+# Social links 제거
+#resume_social_links:
 resume_print_social_links: false
 
 # Design settings
-resume_theme: default
+resume_theme: "default"
