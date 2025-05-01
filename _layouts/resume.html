@@ -12,7 +12,7 @@
       />
       <meta itemprop="address" content="{{ site.resume_contact_address }}" />
 
-     <header class="page-header">
+    <header class="page-header">
   {% if site.resume_avatar == 'true' %}
   <img
     src="https://johnny0862.github.io/images/yongha.jpg"
@@ -22,11 +22,13 @@
   />
   {% endif %}
 
-  <!-- PDF 인쇄용 이미지 -->
+  <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
+  {% if jekyll.environment == "production" %}
   <img 
     src="data:image/jpeg;base64,..." 
-    alt="my photo" 
+    alt="" 
     style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" />
+  {% endif %}
 
   <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
