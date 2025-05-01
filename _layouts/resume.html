@@ -26,6 +26,12 @@
         />
         {% endif %}
 
+        <!-- PDF 인쇄용 이미지 (base64로 인코딩된 형태) -->
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQDxAQEBAVFRAVFRUPEA8PDxUQDw8PFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFQ8PFS0ZFRkrLS0tKy0rKystKysrLSstKy0rKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABAUDBgcBAgj/xABKEAABAwIDBQUECAMGBAQHAAABAAIRAyEEEjFBBVFhBhMicYGRMqGxFCNCUsHR4fAHFSNicoKT8SNSY7Ki0uIVFjP/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EAB8RAQEBAAIBBQAAAAAAAAAAAAABAhESIUEDEzFhcf/aAAwDAQACEAMQAAAB9pKKKCiiigAooooAKKKKACiiigAooooAKfD4Vhr0NHcOrux7Fcbld+Z1cJbK1b7+tt7e+5cAbFi1WWu9ccZLyX6bFY+4iOvw07ZTFNtTiaETr9Mf8AB9yCVWepLqS6Uq9NNWjPWrXLjVi+pEnU+xrXrtmZT0L7NGd4fXefKZb1obTTQ96C2j0qx6eu1R6TpZzTkjZJLqbdOoicNja7iTW0UnzLlSgANdNKAMrTfss7p8DW3rMaFdFrzYjTmozeMZJJ6bIpmcCys53Zjx4zswKrq4r0nZUbUjeMz3+NsnA2nVjsZ7LLpt0tuR3HVsmTNnZrQ04kTG7s9mbn0RweZm+2YDZUVAAAAAAAABR5eFYeqMb9U+R0p2xFbWfZtfYYo3dEEn2k9VctHLkbnj3MPl4q4TvRYbA06nkP4fqxjE58DFZpNm/7WN7VdrO2q7F0LtTbrEdM2Zn1IGMHoB3bp1NThTp9S74pdrZb6pz2kfQ8jVQ9m8yNlfGcjMYcTMwYFeAAAAAAAAAAvUXG5O6RbSo8hvE0qOnkcbRHRmhlp9mc0Op35ujK7pBaxO25o2nVrFtPOT26GHhZ4boOo+8rWbEtSt7HkeEKXT5NLnhqxd+5uUc8fsueqVhzjKqK0wAAAAAAAACfTOFrrjOqJ/KnW/DNNfs00VUrfaivdUOh6MpkvvSVn5k5j7DHScEVPMLr6S+7zUsZpEotZvK0ldvVsD47Mu7CqbOOXmZXqnpXlba9Py3qbk0vU6NbLUSWjHjb5I4f0PKp2AAAAAAAH//2Q==" 
+             alt="my photo" 
+             style="width: 140px; border-radius: 10px; display: block; margin-bottom: 20px;" 
+             class="print-only" />
+
         <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
 
@@ -95,7 +101,9 @@
         {% endfor %}
       </section>
       <!-- end Education -->
-      {% endif %} {% if site.resume_section_projects %}
+      {% endif %}
+
+      {% if site.resume_section_projects %}
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
@@ -126,7 +134,9 @@
         {% endfor %}
       </section>
       <!-- end Projects -->
-      {% endif %} {% if site.resume_section_skills %}
+      {% endif %}
+
+      {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
         <header class="section-header">
@@ -140,7 +150,9 @@
         {% endfor %}
       </section>
       <!-- end Skills -->
-      {% endif %} {% if site.resume_section_recognition %}
+      {% endif %}
+
+      {% if site.resume_section_recognition %}
       <!-- begin Recognition -->
       <section class="content-section">
         <header class="section-header">
@@ -160,7 +172,9 @@
         {% endfor %}
       </section>
       <!-- end Recognition -->
-      {% endif %} {% if site.resume_section_associations %}
+      {% endif %}
+
+      {% if site.resume_section_associations %}
       <!-- begin Associations -->
       <section class="content-section">
         <header class="section-header">
@@ -187,7 +201,9 @@
         {% endfor %}
       </section>
       <!-- end Associations -->
-      {% endif %} {% if site.resume_section_interests %}
+      {% endif %}
+
+      {% if site.resume_section_interests %}
       <!-- begin Interests -->
       <section class="content-section">
         <header class="section-header">
@@ -203,7 +219,9 @@
         </div>
       </section>
       <!-- end Interests -->
-      {% endif %} {% if site.resume_section_links %}
+      {% endif %}
+
+      {% if site.resume_section_links %}
       <!-- begin Links -->
       <section class="content-section">
         <header class="section-header">
@@ -221,7 +239,9 @@
         </div>
       </section>
       <!-- end Links -->
-      {% endif %} {% if site.resume_print_social_links %}
+      {% endif %}
+
+      {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
         <header class="section-header">
