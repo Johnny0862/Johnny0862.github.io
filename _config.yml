@@ -9,9 +9,9 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar: "true"
-resume_name: "남 용 하"
-resume_title: "yh08622@naver.com | 010-5584-0862"  
+resume_avatar: "true"         
+resume_name: "남 용 하"        
+resume_title: "자기소개서"     
 resume_contact_email: "yh08622@naver.com"
 resume_contact_telephone: ""
 resume_contact_address: ""
